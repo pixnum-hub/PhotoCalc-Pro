@@ -1,0 +1,104 @@
+{
+  "name": "PhotoCalc Pro",
+  "short_name": "PhotoCalc",
+  "description": "140 professional photography calculators — exposure, lighting, macro, print, lens, portrait, landscape and more.",
+  "start_url": "./photography-calculator.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f0ede8",
+  "theme_color": "#c8521a",
+  "lang": "en",
+  "categories": ["photography", "utilities", "education"],
+  "icons": [
+    {
+      "src": "./icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Exposure Tools",
+      "short_name": "Exposure",
+      "description": "Quick access to exposure calculators",
+      "url": "./photography-calculator.html#exposure",
+      "icons": [{ "src": "./icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Macro Tools",
+      "short_name": "Macro",
+      "description": "Macro photography calculators",
+      "url": "./photography-calculator.html#macro",
+      "icons": [{ "src": "./icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Lighting Tools",
+      "short_name": "Lighting",
+      "description": "Lighting calculators",
+      "url": "./photography-calculator.html#lighting",
+      "icons": [{ "src": "./icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "PhotoCalc Pro — Home Dashboard"
+    },
+    {
+      "src": "./screenshots/mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "PhotoCalc Pro — Mobile View"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
